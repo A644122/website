@@ -1,5 +1,5 @@
 import React from "react";
-import Web3 from "../assets/Web3.webp"; // Adjust the path as necessary
+import Web from "../assets/Logo.jpg"; // Adjust the path as necessary
 const Footers = () => {
   return (
     <footer className="bg-gray-900 text-white py-10 px-6 md:px-12 lg:px-20">
@@ -8,7 +8,7 @@ const Footers = () => {
         <div>
           {/* Logo */}
           <div className="mb-4">
-            <img src={Web3} alt="Logo" className="h-10 w-auto" />
+            <img src={Web} alt="Logo" className="h-10 w-auto" />
           </div>
 
           {/* Paragraph */}
