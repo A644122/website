@@ -6,15 +6,24 @@ import Contact from "../pages/Contact";
 import Blog from "../pages/Blog";
 import Header from "./Header";
 const ALLRouter = () => {
+  
   return (
     <>
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/"
+           element={<Home />} />
+
+          <Route path="/about"
+           element={<About />} />
+
+          <Route path="/contact" 
+          element={<Contact />} />
+
+          <Route path="/blog"
+           element={<Blog />} 
+           />
         </Routes>
       </div>
     </>
